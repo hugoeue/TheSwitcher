@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Division+CoreDataProperties.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +18,42 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    // if it is the first time opening the it will add some divisions as example
+    NSUserDefaults * defaults = [NSUserDefaults new];
+    if(![defaults objectForKey:@"data"])
+        [self createData];
+     
+    
     return YES;
 }
 
+/**
+ Adding some values to the database
+ because there are so few divisions at start lets hard code it
+ */
+#pragma mark - Helper to load database
+- (void)createData{
+    Division * div1 = [[Division alloc] initWithContext:self.persistentContainer.viewContext];
+    [div1 setName:@"Kitchen"];
+    
+    Division * div2 = [[Division alloc] initWithContext:self.persistentContainer.viewContext];
+    [div2 setName:@"Living room"];
+    
+    Division * div3 = [[Division alloc] initWithContext:self.persistentContainer.viewContext];
+    [div3 setName:@"Master bedroom"];
+    
+    Division * div4 = [[Division alloc] initWithContext:self.persistentContainer.viewContext];
+    [div4 setName:@"Guest's bedroom"];
+    
+    [self saveContext];
+    
+    NSUserDefaults * defaults = [NSUserDefaults new];
+    [defaults setBool:true forKey:@"data"];
+    [defaults synchronize];
+
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1ABAF4208A8B8000DE579E /* light_image_ON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1ABAEE208A8B7F00DE579E /* light_image_ON@3x.png */; };
+		BA1ABAF5208A8B8000DE579E /* light_image_OFF@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1ABAEF208A8B7F00DE579E /* light_image_OFF@2x.png */; };
+		BA1ABAF6208A8B8000DE579E /* light_image_OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1ABAF0208A8B7F00DE579E /* light_image_OFF.png */; };
+		BA1ABAF7208A8B8000DE579E /* light_image_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1ABAF1208A8B7F00DE579E /* light_image_ON.png */; };
+		BA1ABAF8208A8B8000DE579E /* light_image_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1ABAF2208A8B7F00DE579E /* light_image_ON@2x.png */; };
+		BA1ABAF9208A8B8000DE579E /* light_image_OFF@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1ABAF3208A8B8000DE579E /* light_image_OFF@3x.png */; };
+		BA1ABAFB208AA61A00DE579E /* Hugo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1ABAFA208AA61A00DE579E /* Hugo.jpg */; };
 		BA276AC2208935DD005CCA03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA276AC1208935DD005CCA03 /* AppDelegate.m */; };
 		BA276AC5208935DE005CCA03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA276AC4208935DE005CCA03 /* ViewController.m */; };
 		BA276AC8208935DE005CCA03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA276AC6208935DE005CCA03 /* Main.storyboard */; };
@@ -14,9 +21,17 @@
 		BA276ACD208935DE005CCA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA276ACC208935DE005CCA03 /* Assets.xcassets */; };
 		BA276AD0208935DE005CCA03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA276ACE208935DE005CCA03 /* LaunchScreen.storyboard */; };
 		BA276AD3208935DE005CCA03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA276AD2208935DE005CCA03 /* main.m */; };
+		BA276AE420894436005CCA03 /* DivisionViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA276AE320894436005CCA03 /* DivisionViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA1ABAEE208A8B7F00DE579E /* light_image_ON@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light_image_ON@3x.png"; sourceTree = "<group>"; };
+		BA1ABAEF208A8B7F00DE579E /* light_image_OFF@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light_image_OFF@2x.png"; sourceTree = "<group>"; };
+		BA1ABAF0208A8B7F00DE579E /* light_image_OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_image_OFF.png; sourceTree = "<group>"; };
+		BA1ABAF1208A8B7F00DE579E /* light_image_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_image_ON.png; sourceTree = "<group>"; };
+		BA1ABAF2208A8B7F00DE579E /* light_image_ON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light_image_ON@2x.png"; sourceTree = "<group>"; };
+		BA1ABAF3208A8B8000DE579E /* light_image_OFF@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light_image_OFF@3x.png"; sourceTree = "<group>"; };
+		BA1ABAFA208AA61A00DE579E /* Hugo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hugo.jpg; sourceTree = "<group>"; };
 		BA276ABD208935DD005CCA03 /* TheSwitcher_HugoCosta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSwitcher_HugoCosta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA276AC0208935DD005CCA03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA276AC1208935DD005CCA03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +43,8 @@
 		BA276ACF208935DE005CCA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA276AD1208935DE005CCA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA276AD2208935DE005CCA03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA276AE220894436005CCA03 /* DivisionViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivisionViewViewController.h; sourceTree = "<group>"; };
+		BA276AE320894436005CCA03 /* DivisionViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivisionViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +58,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA1ABAED208A8B6900DE579E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BA1ABAFA208AA61A00DE579E /* Hugo.jpg */,
+				BA1ABAF0208A8B7F00DE579E /* light_image_OFF.png */,
+				BA1ABAEF208A8B7F00DE579E /* light_image_OFF@2x.png */,
+				BA1ABAF3208A8B8000DE579E /* light_image_OFF@3x.png */,
+				BA1ABAF1208A8B7F00DE579E /* light_image_ON.png */,
+				BA1ABAF2208A8B7F00DE579E /* light_image_ON@2x.png */,
+				BA1ABAEE208A8B7F00DE579E /* light_image_ON@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		BA276AB4208935DD005CCA03 = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +91,12 @@
 		BA276ABF208935DD005CCA03 /* TheSwitcher_HugoCosta */ = {
 			isa = PBXGroup;
 			children = (
+				BA1ABAED208A8B6900DE579E /* images */,
+				BA276AC9208935DE005CCA03 /* TheSwitcher_HugoCosta.xcdatamodeld */,
 				BA276AC0208935DD005CCA03 /* AppDelegate.h */,
 				BA276AC1208935DD005CCA03 /* AppDelegate.m */,
+				BA276AE220894436005CCA03 /* DivisionViewViewController.h */,
+				BA276AE320894436005CCA03 /* DivisionViewViewController.m */,
 				BA276AC3208935DD005CCA03 /* ViewController.h */,
 				BA276AC4208935DE005CCA03 /* ViewController.m */,
 				BA276AC6208935DE005CCA03 /* Main.storyboard */,
@@ -69,7 +104,6 @@
 				BA276ACE208935DE005CCA03 /* LaunchScreen.storyboard */,
 				BA276AD1208935DE005CCA03 /* Info.plist */,
 				BA276AD2208935DE005CCA03 /* main.m */,
-				BA276AC9208935DE005CCA03 /* TheSwitcher_HugoCosta.xcdatamodeld */,
 			);
 			path = TheSwitcher_HugoCosta;
 			sourceTree = "<group>";
@@ -131,9 +165,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1ABAF8208A8B8000DE579E /* light_image_ON@2x.png in Resources */,
 				BA276AD0208935DE005CCA03 /* LaunchScreen.storyboard in Resources */,
+				BA1ABAFB208AA61A00DE579E /* Hugo.jpg in Resources */,
+				BA1ABAF4208A8B8000DE579E /* light_image_ON@3x.png in Resources */,
+				BA1ABAF6208A8B8000DE579E /* light_image_OFF.png in Resources */,
 				BA276ACD208935DE005CCA03 /* Assets.xcassets in Resources */,
+				BA1ABAF9208A8B8000DE579E /* light_image_OFF@3x.png in Resources */,
 				BA276AC8208935DE005CCA03 /* Main.storyboard in Resources */,
+				BA1ABAF5208A8B8000DE579E /* light_image_OFF@2x.png in Resources */,
+				BA1ABAF7208A8B8000DE579E /* light_image_ON.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA276AE420894436005CCA03 /* DivisionViewViewController.m in Sources */,
 				BA276AC5208935DE005CCA03 /* ViewController.m in Sources */,
 				BA276AC2208935DD005CCA03 /* AppDelegate.m in Sources */,
 				BA276AD3208935DE005CCA03 /* main.m in Sources */,
@@ -287,14 +329,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D2Z27AKW9L;
 				INFOPLIST_FILE = TheSwitcher_HugoCosta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "my.app.TheSwitcher-HugoCosta";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.TheSwitcher-HugoCosta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2be3fb03-3f98-431c-9641-36a57b6220de";
+				PROVISIONING_PROFILE_SPECIFIER = "The Switcher";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -303,14 +349,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D2Z27AKW9L;
 				INFOPLIST_FILE = TheSwitcher_HugoCosta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "my.app.TheSwitcher-HugoCosta";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.TheSwitcher-HugoCosta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2be3fb03-3f98-431c-9641-36a57b6220de";
+				PROVISIONING_PROFILE_SPECIFIER = "The Switcher";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Division+CoreDataProperties.h"
 
 @interface DivisionViewViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageLamp;
+
+@property (weak, nonatomic) IBOutlet UILabel *labelDivision;
+@property (weak, nonatomic) IBOutlet UILabel *labelState;
+
+@property Division * division;
 
 @end
