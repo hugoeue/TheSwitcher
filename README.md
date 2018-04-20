@@ -1,6 +1,6 @@
 # TheSwitcher
 
-### A simple example app where you can add remove using iOS core data
+### A simple example app where you can add remove information using iOS core data
 
 ---
 
